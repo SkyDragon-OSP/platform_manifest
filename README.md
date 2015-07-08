@@ -1,7 +1,9 @@
 
 *** SkyDragon Open Source Project ***
 
+
 Android 5.1.1_R6
+
 
 *Get The Source*
 
@@ -9,7 +11,8 @@ Android 5.1.1_R6
 	$ cd ~/skydragon
 	$ repo init -u https://github.com/skydragon-osp/platform_manifest -b master
 	$ repo sync
-	
+
+
 *To Build*
 
 	$ source build/envsetup.sh
