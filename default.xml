@@ -9,7 +9,7 @@
            remote="aosp"
            sync-j="4" />
  
- <!-- fhemaosp repos -->
+ <!-- skydragon repos -->
   <project path="build" name="platform_build" remote="skydragon" revision="skydragon" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
