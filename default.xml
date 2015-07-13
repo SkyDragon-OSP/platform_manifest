@@ -5,22 +5,22 @@
            fetch="https://android.googlesource.com/" />
   <remote  name="skydragon"
            fetch="https://github.com/SKyDragon-OSP/" /> 
-  <default revision="refs/tags/android-5.1.1_r6"
+  <default revision="refs/tags/android-5.1.1_r8"
            remote="aosp"
            sync-j="4" />
  
  <!-- skydragon repos -->
-  <project path="build" name="platform_build" remote="skydragon" revision="skydragon" >
+  <project path="build" name="platform_build" remote="skydragon" revision="5.1.1-r8" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="device/moto/shamu" name="device_moto_shamu" remote="skydragon" revision="skydragon" />         
+  <project path="device/moto/shamu" name="device_moto_shamu" remote="skydragon" revision="5.1.1-r8" />         
   <project path="vendor/moto/shamu" name="platform_vendor_moto_shamu" remote="skydragon" revision="skydragon" />
-  <project path="frameworks/base" name="platform_frameworks_base" remote="skydragon" revision="skydragon" />
-  <project path="packages/apps/Contacts" name="platform_packages_apps_Contacts" remote="skydragon" revision="skydragon" />
-  <project path="packages/apps/ContactsCommon" name="platform_packages_apps_ContactsCommon" remote="skydragon" revision="skydragon" />
-  <project path="packages/apps/Dialer" name="platform_packages_apps_Dialer" remote="skydragon" revision="skydragon" />
-  <project path="packages/apps/InCallUI" name="platform_packages_apps_InCallUI" remote="skydragon" revision="skydragon" />
-  <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="skydragon" revision="skydragon" />
+  <project path="frameworks/base" name="platform_frameworks_base" remote="skydragon" revision="5.1.1-r8" />
+  <project path="packages/apps/Contacts" name="platform_packages_apps_Contacts" remote="skydragon" revision="5.1.1-r8" />
+  <project path="packages/apps/ContactsCommon" name="platform_packages_apps_ContactsCommon" remote="skydragon" revision="5.1.1-r8" />
+  <project path="packages/apps/Dialer" name="platform_packages_apps_Dialer" remote="skydragon" revision="5.1.1-r8" />
+  <project path="packages/apps/InCallUI" name="platform_packages_apps_InCallUI" remote="skydragon" revision="5.1.1-r8" />
+  <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="skydragon" revision="5.1.1-r8" />
   
  <!-- aosp repos -->
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
