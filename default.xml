@@ -14,13 +14,17 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="device/moto/shamu" name="device_moto_shamu" remote="skydragon" revision="5.1.1-r8" />         
-  <project path="vendor/moto/shamu" name="platform_vendor_moto_shamu" remote="skydragon" revision="skydragon" />
+  <project path="external/google" name="platform_external_google" remote="skydragon" revision="skydragon" />
   <project path="frameworks/base" name="platform_frameworks_base" remote="skydragon" revision="5.1.1-r8" />
+  <project path="frameworks/native" name="platform_frameworks_native" remote="skydragon" revision="5.1.1-r8" />
+  <project path="packages/apps/Browser" name="platform_packages_apps_Browser" remote="skydragon" revision="skydragon" />
   <project path="packages/apps/Contacts" name="platform_packages_apps_Contacts" remote="skydragon" revision="5.1.1-r8" />
   <project path="packages/apps/ContactsCommon" name="platform_packages_apps_ContactsCommon" remote="skydragon" revision="5.1.1-r8" />
   <project path="packages/apps/Dialer" name="platform_packages_apps_Dialer" remote="skydragon" revision="5.1.1-r8" />
   <project path="packages/apps/InCallUI" name="platform_packages_apps_InCallUI" remote="skydragon" revision="5.1.1-r8" />
+  <project path="packages/apps/LockClock" name="platform_packages_apps_LockCLock" remote="skydragon" revision="skydragon" />
   <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="skydragon" revision="5.1.1-r8" />
+  <project path="vendor/moto/shamu" name="platform_vendor_moto_shamu" remote="skydragon" revision="skydragon" />
   
  <!-- aosp repos -->
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
@@ -303,7 +307,6 @@
   <project path="frameworks/minikin" name="platform/frameworks/minikin" groups="pdk-cw-fs" />
   <project path="frameworks/ml" name="platform/frameworks/ml" groups="pdk-cw-fs" />
   <project path="frameworks/multidex" name="platform/frameworks/multidex" groups="pdk-cw-fs" />
-  <project path="frameworks/native" name="platform/frameworks/native" groups="pdk" />
   <project path="frameworks/opt/bitmap" name="platform/frameworks/opt/bitmap" />
   <project path="frameworks/opt/bluetooth" name="platform/frameworks/opt/bluetooth" groups="pdk-cw-fs" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" groups="pdk-cw-fs" />
@@ -375,7 +378,6 @@
   <project path="ndk" name="platform/ndk" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
   <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" groups="pdk-cw-fs" />
-  <project path="packages/apps/Browser" name="platform/packages/apps/Browser" />
   <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" />
   <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" />
   <project path="packages/apps/Camera" name="platform/packages/apps/Camera" />
@@ -394,7 +396,6 @@
   <project path="packages/apps/Launcher3" name="platform/packages/apps/Launcher3" />
   <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" />
   <project path="packages/apps/ManagedProvisioning" name="platform/packages/apps/ManagedProvisioning" />
-  <project path="packages/apps/Mms" name="platform/packages/apps/Mms" />
   <project path="packages/apps/Music" name="platform/packages/apps/Music" />
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" />
   <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" />
