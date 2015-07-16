@@ -15,6 +15,7 @@
   </project>
   <project path="device/moto/shamu" name="device_moto_shamu" remote="skydragon" revision="5.1.1-r8" />         
   <project path="external/google" name="platform_external_google" remote="skydragon" revision="skydragon" />
+  <project path="external/libpng" name="platform_external_libpng" remote="skydragon" revision="5.1.1-r8" />
   <project path="frameworks/base" name="platform_frameworks_base" remote="skydragon" revision="5.1.1-r8" />
   <project path="frameworks/native" name="platform_frameworks_native" remote="skydragon" revision="5.1.1-r8" />
   <project path="frameworks/webview" name="platform_frameworks_webview" remote="skydragon" revision="skydragon" />
@@ -204,7 +205,6 @@
   <project path="external/libopus" name="platform/external/libopus" groups="pdk" />
   <project path="external/libpcap" name="platform/external/libpcap" groups="pdk,pdk-cw-fs" />
   <project path="external/libphonenumber" name="platform/external/libphonenumber" groups="pdk-cw-fs" />
-  <project path="external/libpng" name="platform/external/libpng" groups="pdk" />
   <project path="external/libseccomp-helper" name="platform/external/libseccomp-helper" groups="pdk-cw-fs" />
   <project path="external/libselinux" name="platform/external/libselinux" groups="pdk" />
   <project path="external/libsepol" name="platform/external/libsepol" groups="pdk" />
