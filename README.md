@@ -2,7 +2,7 @@
 *** SkyDragon Open Source Project ***
 
 
-Android 5.1.1_R8
+Android 7.0.0_R6
 
 
 *Get The Source*
@@ -17,5 +17,5 @@ Android 5.1.1_R8
 
 	$ source build/envsetup.sh
 	$ make clobber
-	$ lunch aosp_shamu-userdebug
+	$ lunch
 	$ make -j `getconf _NPROCESSORS_ONLN` otapackage
