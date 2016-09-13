@@ -9,7 +9,7 @@ Android 7.0.0_R6
 
 	$ mkdir ~/skydragon
 	$ cd ~/skydragon
-	$ repo init -u https://github.com/skydragon-osp/platform_manifest -b master
+	$ repo init -u https://github.com/skydragon-osp/platform_manifest -b n
 	$ repo sync
 
 
