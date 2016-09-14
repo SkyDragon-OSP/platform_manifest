@@ -16,6 +16,8 @@
   <project path="device/huawei/angler" name="device_huawei_angler" remote="skydragon" revision="n" />
   <project path="device/huawei/angler-kernel" name="device_huawei_angler-kernel" remote="skydragon" revision="n" />
   <project path="frameworks/base" name="platform_frameworks_base" remote="skydragon" revision="n" />
+  <project path="frameworks/support" name="platform_frameworks_support" remote="skydragon" revision="n" />
+  <project path="packages/apps/PackageInstaller" name="platform_packages_apps_PackageInstaller" remote="skydragon" revision="n" />
   <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="skydragon" revision="n" />
   
  <!-- aosp repos -->
@@ -341,7 +343,6 @@
   <project path="frameworks/opt/timezonepicker" name="platform/frameworks/opt/timezonepicker" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/rs" name="platform/frameworks/rs" groups="pdk" />
-  <project path="frameworks/support" name="platform/frameworks/support" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/data-binding" name="platform/frameworks/data-binding" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/volley" name="platform/frameworks/volley" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/webview" name="platform/frameworks/webview" groups="pdk-cw-fs,pdk-fs" />
@@ -422,7 +423,6 @@
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" groups="pdk-fs" />
   <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" groups="apps_nfc,pdk-fs" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" groups="pdk-fs" />
-  <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" groups="pdk-fs" />
   <project path="packages/apps/Phone" name="platform/packages/apps/Phone" groups="pdk-fs" />
   <project path="packages/apps/PhoneCommon" name="platform/packages/apps/PhoneCommon" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" groups="pdk-fs" />
