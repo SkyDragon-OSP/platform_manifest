@@ -15,11 +15,13 @@
   </project>
   <project path="device/huawei/angler" name="device_huawei_angler" remote="skydragon" revision="n" />
   <project path="device/huawei/angler-kernel" name="device_huawei_angler-kernel" remote="skydragon" revision="n" />
+  <project path="device/moto/shamu" name="device_moto_shamu" remote="skydragon" revision="n" />
   <project path="frameworks/base" name="platform_frameworks_base" remote="skydragon" revision="n" />
   <project path="frameworks/support" name="platform_frameworks_support" remote="skydragon" revision="n" />
   <project path="packages/apps/PackageInstaller" name="platform_packages_apps_PackageInstaller" remote="skydragon" revision="n" />
   <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="skydragon" revision="n" />
-    <project path="vendor/skydragon" name="platform_vendor_skydragon" remote="skydragon" revision="n" />
+  <project path="platform/vendor/moto/shamu" name="platform_vendor_moto_shamu" remote="skydragon" revision="n" />
+  <project path="vendor/skydragon" name="platform_vendor_skydragon" remote="skydragon" revision="n" />
   
  <!-- aosp repos -->
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" />
