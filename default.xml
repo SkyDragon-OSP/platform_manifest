@@ -16,6 +16,7 @@
   <project path="device/huawei/angler" name="device_huawei_angler" remote="skydragon" revision="n" />
   <project path="device/huawei/angler-kernel" name="device_huawei_angler-kernel" remote="skydragon" revision="n" />
   <project path="device/moto/shamu" name="device_moto_shamu" remote="skydragon" revision="n" />
+  <project path="device/moto/shamu-kernel" name="device_moto_shamu-kernel" remote="skydragon" revision="n" />
   <project path="frameworks/base" name="platform_frameworks_base" remote="skydragon" revision="n" />
   <project path="frameworks/support" name="platform_frameworks_support" remote="skydragon" revision="n" />
   <project path="packages/apps/PackageInstaller" name="platform_packages_apps_PackageInstaller" remote="skydragon" revision="n" />
@@ -71,8 +72,6 @@
   <project path="device/lge/bullhead-kernel" name="device/lge/bullhead-kernel" groups="device,bullhead" />
   <project path="device/linaro/hikey" name="device/linaro/hikey" />
   <project path="device/linaro/hikey-kernel" name="device/linaro/hikey-kernel" />
-  <project path="device/moto/shamu" name="device/moto/shamu" groups="device,shamu,broadcom_pdk" />
-  <project path="device/moto/shamu-kernel" name="device/moto/shamu-kernel" groups="device,shamu,broadcom_pdk" clone-depth="1" />
   <project path="device/sample" name="device/sample" groups="pdk" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" />
