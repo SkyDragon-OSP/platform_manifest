@@ -22,8 +22,9 @@
   <project path="frameworks/support" name="platform_frameworks_support" remote="skydragon" revision="n" />
   <project path="packages/apps/PackageInstaller" name="platform_packages_apps_PackageInstaller" remote="skydragon" revision="n" />
   <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="skydragon" revision="n" />
-  <project path="platform/external/busybox" name="platform_external_busybox" remote="skydragon" revision="n" />
-  <project path="platform/vendor/moto/shamu" name="platform_vendor_moto_shamu" remote="skydragon" revision="n" />
+  <project path="external/busybox" name="platform_external_busybox" remote="skydragon" revision="n" />
+  <project path="system/sepolicy" name="platform_system_sepolicy" remote="skydragon" revision="n" />
+  <project path="vendor/moto/shamu" name="platform_vendor_moto_shamu" remote="skydragon" revision="n" />
   <project path="vendor/skydragon" name="platform_vendor_skydragon" remote="skydragon" revision="n" />
   
  <!-- aosp repos -->
@@ -519,7 +520,6 @@
   <project path="system/netd" name="platform/system/netd" groups="pdk" />
   <project path="system/nvram" name="platform/system/nvram" />
   <project path="system/security" name="platform/system/security" groups="pdk" />
-  <project path="system/sepolicy" name="platform/system/sepolicy" groups="pdk" />
   <project path="system/tools/aidl" name="platform/system/tools/aidl" groups="pdk-cw-fs,pdk-fs" />
   <project path="system/tpm" name="platform/system/tpm" />
   <project path="system/update_engine" name="platform/system/update_engine" />
