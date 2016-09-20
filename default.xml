@@ -24,6 +24,7 @@
   <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="skydragon" revision="n" />
   <project path="external/busybox" name="platform_external_busybox" remote="skydragon" revision="n" />
   <project path="system/sepolicy" name="platform_system_sepolicy" remote="skydragon" revision="n" />
+  <project path="vendor/huawei/angler" name="platform_vendor_huawei_angler" remote="skydragon" revision="n" />
   <project path="vendor/moto/shamu" name="platform_vendor_moto_shamu" remote="skydragon" revision="n" />
   <project path="vendor/skydragon" name="platform_vendor_skydragon" remote="skydragon" revision="n" />
   
