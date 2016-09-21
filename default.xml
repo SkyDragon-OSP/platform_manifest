@@ -5,6 +5,8 @@
            fetch="https://android.googlesource.com/" />
   <remote  name="skydragon"
            fetch="https://github.com/SKyDragon-OSP/" /> 
+  <remote name = "gh"
+          fetch = "https://github.com/" />
   <default revision="refs/tags/android-7.0.0_r6"
            remote="aosp"
            sync-j="4" />
@@ -18,18 +20,27 @@
   <project path="device/moto/shamu" name="device_moto_shamu" remote="skydragon" revision="n" />
   <project path="device/moto/shamu-kernel" name="device_moto_shamu-kernel" remote="skydragon" revision="n" />
   <project path="external/busybox" name="platform_external_busybox" remote="skydragon" revision="n" />
+  <project path="frameworks/av" name="platform_frameworks_av" remote="skydragon" revision="n" />
   <project path="frameworks/base" name="platform_frameworks_base" remote="skydragon" revision="n" />
   <project path="frameworks/native" name="platform_frameworks_native" remote="skydragon" revision="n" />
   <project path="frameworks/support" name="platform_frameworks_support" remote="skydragon" revision="n" />
+  <project path="packages/apps/Contacts" name="platform_packages_apps_Contacts" remote="uber" />
+  <project path="packages/apps/Dialer" name="platform_packages_apps_Dialer" remote="skydragon" revision="n" />
   <project path="packages/apps/PackageInstaller" name="platform_packages_apps_PackageInstaller" remote="skydragon" revision="n" />
+  <project path="packages/apps/SnapdragonCamera" name="platform_packages_apps_SnapdragonCamera" remote="skydragon" revision="n" />
   <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="skydragon" revision="n" />
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="aarch64-linux-android-4.9" remote="skydragon" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="arm-linux-androideabi-4.9" remote="skydragon" revision="master" />
+  <project path="system/core" name="platform_system_core" remote="skydragon" revision="n" />
   <project path="system/sepolicy" name="platform_system_sepolicy" remote="skydragon" revision="n" />
   <project path="vendor/huawei/angler" name="platform_vendor_huawei_angler" remote="skydragon" revision="n" />
   <project path="vendor/moto/shamu" name="platform_vendor_moto_shamu" remote="skydragon" revision="n" />
   <project path="vendor/skydragon" name="platform_vendor_skydragon" remote="skydragon" revision="n" />
   
+<!-- other repos -->
+  <project path="packages/apps/masquerade" name="TeamSubstratum/masquerade" remote="gh" revision="master" />
+  <project path="packages/apps/substratum" name="TeamSubstratum/substratum" remote="gh" revision="master" />
+
  <!-- aosp repos -->
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" />
   <project path="build/kati" name="platform/build/kati" groups="pdk,tradefed" />
@@ -323,7 +334,6 @@
   <project path="external/zlib" name="platform/external/zlib" groups="pdk" />
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs,pdk-fs" />
-  <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
@@ -409,11 +419,9 @@
   <project path="packages/apps/CarrierConfig" name="platform/packages/apps/CarrierConfig" groups="pdk-fs" />
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" groups="pdk-fs" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" groups="pdk-cw-fs,pdk-fs" />
-  <project path="packages/apps/Contacts" name="platform/packages/apps/Contacts" groups="pdk-fs" />
   <project path="packages/apps/ContactsCommon" name="platform/packages/apps/ContactsCommon" groups="pdk-fs" />
   <project path="packages/apps/DeskClock" name="platform/packages/apps/DeskClock" groups="pdk-fs" />
   <project path="packages/apps/DevCamera" name="platform/packages/apps/DevCamera" groups="pdk" />
-  <project path="packages/apps/Dialer" name="platform/packages/apps/Dialer" groups="pdk-fs" />
   <project path="packages/apps/Email" name="platform/packages/apps/Email" groups="pdk-fs" />
   <project path="packages/apps/EmergencyInfo" name="platform/packages/apps/EmergencyInfo" />
   <project path="packages/apps/ExactCalculator" name="platform/packages/apps/ExactCalculator" groups="pdk-fs" />
@@ -511,7 +519,6 @@
   <project path="system/connectivity/apmanager" name="platform/system/connectivity/apmanager" />
   <project path="system/connectivity/dhcp_client" name="platform/system/connectivity/dhcp_client" />
   <project path="system/connectivity/shill" name="platform/system/connectivity/shill" />
-  <project path="system/core" name="platform/system/core" groups="pdk" />
   <project path="system/extras" name="platform/system/extras" groups="pdk" />
   <project path="system/firewalld" name="platform/system/firewalld" />
   <project path="system/gatekeeper" name="platform/system/gatekeeper" groups="pdk" />
