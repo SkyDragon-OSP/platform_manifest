@@ -5,8 +5,8 @@
            fetch="https://android.googlesource.com/" />
   <remote  name="skydragon"
            fetch="https://github.com/SKyDragon-OSP/" /> 
-  <remote name = "gh"
-          fetch = "https://github.com/" />
+  <remote  name="gh"
+           fetch="https://github.com/" />
   <default revision="refs/tags/android-7.0.0_r6"
            remote="aosp"
            sync-j="4" />
