@@ -32,7 +32,7 @@
   <project path="frameworks/base" name="platform_frameworks_base" remote="skydragon" revision="n" />
   <project path="frameworks/native" name="platform_frameworks_native" remote="skydragon" revision="n" />
   <project path="frameworks/support" name="platform_frameworks_support" remote="skydragon" revision="n" />
-  <project path="packages/apps/Contacts" name="platform_packages_apps_Contacts" remote="uber" />
+  <project path="packages/apps/Contacts" name="platform_packages_apps_Contacts" remote="n" />
   <project path="packages/apps/Dialer" name="platform_packages_apps_Dialer" remote="skydragon" revision="n" />
   <project path="packages/apps/PackageInstaller" name="platform_packages_apps_PackageInstaller" remote="skydragon" revision="n" />
   <project path="packages/apps/SnapdragonCamera" name="platform_packages_apps_SnapdragonCamera" remote="skydragon" revision="n" />
