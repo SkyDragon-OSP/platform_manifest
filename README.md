@@ -2,7 +2,15 @@
 *** SkyDragon Open Source Project ***
 
 
-Android 7.0.0_R6
+Currently based on: Android 7.0.0_R6
+
+* This is my Personal/SkyDragon-Team-Only rom build 
+* Not for the public/sharing
+* Don't flame me for "kanging" 
+* All's available here for you too
+* Credits/Many thanks to: 
+* - PureNexusProject 
+* - Uberroms
 
 
 *Get The Source*
