@@ -21,13 +21,7 @@
   <project path="device/moto/shamu" name="device_moto_shamu" remote="skydragon" revision="n" />
   <project path="device/moto/shamu-kernel" name="device_moto_shamu-kernel" remote="skydragon" revision="n" />
   <project path="external/busybox" name="platform_external_busybox" remote="skydragon" revision="n" />
-  <project path="external/freetype" name="platform_external_freetype" remote="skydragon" revision="n" />
-  <project path="external/iptables" name="platform_external_iptables" remote="skydragon" revision="n" />
   <project path="external/skia" name="platform_external_skia" remote="skydragon" revision="n" />
-  <project path="external/sonivox" name="platform_external_sonivox" remote="skydragon" revision="n" />
-  <project path="external/sqlite" name="platform_external_sqlite" remote="skydragon" revision="n" />
-  <project path="external/strace" name="platform_external_strace" remote="skydragon" revision="nt" />
-  <project path="external/zlib" name="platform_external_zlib" remote="skydragon" revision="nt" />
   <project path="frameworks/av" name="platform_frameworks_av" remote="skydragon" revision="n" />
   <project path="frameworks/base" name="platform_frameworks_base" remote="skydragon" revision="n" />
   <project path="frameworks/native" name="platform_frameworks_native" remote="skydragon" revision="n" />
@@ -163,6 +157,7 @@
   <project path="external/fio" name="platform/external/fio" groups="pdk-fs" />
   <project path="external/flac" name="platform/external/flac" groups="pdk" />
   <project path="external/fonttools" name="platform/external/fonttools" groups="pdk-fs" />
+  <project path="external/freetype" name="platform/external/freetype" groups="pdk" />
   <project path="external/fsck_msdos" name="platform/external/fsck_msdos" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/gemmlowp" name="platform/external/gemmlowp" />
   <project path="external/giflib" name="platform/external/giflib" groups="pdk,qcom_msm8x26" />
@@ -185,6 +180,7 @@
   <project path="external/icu" name="platform/external/icu" groups="pdk" />
   <project path="external/iproute2" name="platform/external/iproute2" groups="pdk" />
   <project path="external/ipsec-tools" name="platform/external/ipsec-tools" groups="pdk-cw-fs,pdk-fs" />
+  <project path="external/iptables" name="platform/external/iptables" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/iputils" name="platform/external/iputils" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/iw" name="platform/external/iw" />
   <project path="external/jacoco" name="platform/external/jacoco" />
@@ -305,9 +301,12 @@
   <project path="external/smali" name="platform/external/smali" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/snakeyaml" name="platform/external/snakeyaml" groups="pdk" />
   <project path="external/sonic" name="platform/external/sonic" groups="pdk" />
+  <project path="external/sonivox" name="platform/external/sonivox" groups="pdk" />
   <project path="external/speex" name="platform/external/speex" groups="pdk" />
+  <project path="external/sqlite" name="platform/external/sqlite" groups="pdk" />
   <project path="external/squashfs-tools" name="platform/external/squashfs-tools" groups="pdk" />
   <project path="external/srtp" name="platform/external/srtp" groups="pdk-cw-fs,pdk-fs" />
+  <project path="external/strace" name="platform/external/strace" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/svox" name="platform/external/svox" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/tagsoup" name="platform/external/tagsoup" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/testng" name="platform/external/testng" groups="pdk" />
@@ -334,6 +333,7 @@
   <project path="external/xmlrpcpp" name="platform/external/xmlrpcpp" groups="pdk" />
   <project path="external/xmlwriter" name="platform/external/xmlwriter" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/xmp_toolkit" name="platform/external/xmp_toolkit" groups="pdk-cw-fs,pdk-fs" />
+  <project path="external/zlib" name="platform/external/zlib" groups="pdk" />
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
