@@ -2,6 +2,9 @@
 *** SkyDragon Open Source Project ***
 
 
+* This is my Personal/SkyDragon-Team-Only rom build, not for the public/sharing, don't flame me for "kanging", all's available here for you too *
+
+
 Android 7.0.0_R6
 
 
