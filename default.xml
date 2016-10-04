@@ -7,7 +7,7 @@
            fetch="https://github.com/SKyDragon-OSP/" /> 
   <remote  name="gh"
            fetch="https://github.com/" />
-  <default revision="refs/tags/android-7.0.0_r6"
+  <default revision="refs/tags/android-7.0.0_r11"
            remote="aosp"
            sync-j="4" />
  
@@ -32,10 +32,12 @@
   <project path="packages/apps/PackageInstaller" name="platform_packages_apps_PackageInstaller" remote="skydragon" revision="n" />
   <project path="packages/apps/SnapdragonCamera" name="platform_packages_apps_SnapdragonCamera" remote="skydragon" revision="n" />
   <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="skydragon" revision="n" />
+  <project path="packages/providers/DownloadProvider" name="platform_packages_providers_DownloadProvider" remote="skydragon" revision="n" />
   <project path="prebuilts/clang/linux-x86/host/3.6" name="platform_prebuilts_clang_linux-x86_host-3.6" remote="skydragon" revision="n" />
   <project path="prebuilts/clang/host/linux-x86" name="platform_prebuilts_clang_host_linux-x86" remote="skydragon" revision="n" />
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="aarch64-linux-android-4.9" remote="skydragon" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="arm-linux-androideabi-4.9" remote="skydragon" revision="master" />
+  <project path="prebuilts/ninja/linux-x86" name="platform_prebuilts_ninja_linux-x86" remote="skydragon" revision="n" />
   <project path="system/core" name="platform_system_core" remote="skydragon" revision="n" />
   <project path="system/sepolicy" name="platform_system_sepolicy" remote="skydragon" revision="n" />
   <project path="vendor/huawei/angler" name="platform_vendor_huawei_angler" remote="skydragon" revision="n" />
@@ -464,7 +466,6 @@
   <project path="packages/providers/CalendarProvider" name="platform/packages/providers/CalendarProvider" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/providers/CallLogProvider" name="platform/packages/providers/CallLogProvider" groups="pdk-fs" />
   <project path="packages/providers/ContactsProvider" name="platform/packages/providers/ContactsProvider" groups="pdk-cw-fs,pdk-fs" />
-  <project path="packages/providers/DownloadProvider" name="platform/packages/providers/DownloadProvider" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/providers/MediaProvider" name="platform/packages/providers/MediaProvider" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/providers/PartnerBookmarksProvider" name="platform/packages/providers/PartnerBookmarksProvider" groups="pdk-fs" />
   <project path="packages/providers/TelephonyProvider" name="platform/packages/providers/TelephonyProvider" groups="pdk-cw-fs,pdk-fs" />
@@ -507,7 +508,6 @@
   <project path="prebuilts/misc" name="platform/prebuilts/misc" groups="pdk" />
   <project path="prebuilts/ndk" name="platform/prebuilts/ndk" groups="pdk" />
   <project path="prebuilts/ninja/darwin-x86" name="platform/prebuilts/ninja/darwin-x86" groups="darwin,pdk,tradefed" />
-  <project path="prebuilts/ninja/linux-x86" name="platform/prebuilts/ninja/linux-x86" groups="linux,pdk,tradefed" />
   <project path="prebuilts/python/darwin-x86/2.7.5" name="platform/prebuilts/python/darwin-x86/2.7.5" groups="darwin,pdk,pdk-cw-fs,pdk-fs" />
   <project path="prebuilts/python/linux-x86/2.7.5" name="platform/prebuilts/python/linux-x86/2.7.5" groups="linux,pdk,pdk-cw-fs,pdk-fs" />
   <project path="prebuilts/qemu-kernel" name="platform/prebuilts/qemu-kernel" groups="pdk" clone-depth="1" />
