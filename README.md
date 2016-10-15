@@ -2,7 +2,7 @@
 *** SkyDragon Open Source Project ***
 
 
-Currently based on: Android 7.0.0_R6
+Currently based on: Android 7.0.0_R14
 
 * This is my Personal/SkyDragon-Team-Only rom build 
 * Not for the public/sharing
