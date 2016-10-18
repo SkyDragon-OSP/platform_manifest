@@ -47,7 +47,6 @@
   
 <!-- other repos -->
   <project path="packages/apps/masquerade" name="TeamSubstratum/masquerade" remote="gh" revision="master" />
-  <project path="packages/apps/substratum" name="TeamSubstratum/substratum" remote="gh" revision="master" />
 
  <!-- aosp repos -->
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" />
