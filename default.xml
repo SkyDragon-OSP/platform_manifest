@@ -18,10 +18,11 @@
   <project path="art" name="platform_art" remote="skydragon" revision="n71" />
   <project path="bionic" name="platform_bionic" remote="skydragon" revision="n" />
   <project path="device/huawei/angler" name="device_huawei_angler" remote="skydragon" revision="n71" />
-  <project path="device/huawei/angler-kernel" name="device_huawei_angler-kernel" remote="skydragon" revision="n" />
+  <project path="device/huawei/angler-kernel" name="device_huawei_angler-kernel" remote="skydragon" revision="n71" />
   <project path="device/moto/shamu" name="device_moto_shamu" remote="skydragon" revision="n71" />
   <project path="device/moto/shamu-kernel" name="device_moto_shamu-kernel" remote="skydragon" revision="n" />
   <project path="external/busybox" name="platform_external_busybox" remote="skydragon" revision="n" />
+  <project path="external/libjpeg-turbo" name="platform_external_libjpeg-turbo" remote="skydragon" revision="n71" />
   <project path="external/skia" name="platform_external_skia" remote="skydragon" revision="n" />
   <project path="external/sqlite" name="platform_external_sqlite" remote="skydragon" revision="n" />
   <project path="frameworks/av" name="platform_frameworks_av" remote="skydragon" revision="n71" />
@@ -42,7 +43,7 @@
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="arm-linux-androideabi-4.9" remote="skydragon" revision="master" />
   <project path="prebuilts/ninja/linux-x86" name="platform_prebuilts_ninja_linux-x86" remote="skydragon" revision="n" />
   <project path="system/core" name="platform_system_core" remote="skydragon" revision="n71" />
-  <project path="system/sepolicy" name="platform_system_sepolicy" remote="skydragon" revision="n" />
+  <project path="system/sepolicy" name="platform_system_sepolicy" remote="skydragon" revision="n71" />
   <project path="vendor/huawei/angler" name="platform_vendor_huawei_angler" remote="skydragon" revision="n" />
   <project path="vendor/moto/shamu" name="platform_vendor_moto_shamu" remote="skydragon" revision="n" />
   <project path="vendor/custom" name="platform_vendor_skydragon" remote="skydragon" revision="custom" />
@@ -221,7 +222,6 @@
   <project path="external/libexif" name="platform/external/libexif" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/libgsm" name="platform/external/libgsm" groups="pdk" />
   <project path="external/libhevc" name="platform/external/libhevc" groups="pdk-fs" />
-  <project path="external/libjpeg-turbo" name="platform/external/libjpeg-turbo" groups="pdk" />
   <project path="external/liblzf" name="platform/external/liblzf" groups="pdk" />
   <project path="external/libmicrohttpd" name="platform/external/libmicrohttpd" />
   <project path="external/libmpeg2" name="platform/external/libmpeg2" groups="pdk" />
