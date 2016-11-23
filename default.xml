@@ -28,6 +28,9 @@
   <project path="external/sqlite" name="platform_external_sqlite" remote="skydragon" revision="n" />
   <project path="frameworks/av" name="platform_frameworks_av" remote="skydragon" revision="n71" />
   <project path="frameworks/base" name="platform_frameworks_base" remote="skydragon" revision="n71" />
+  <project path="frameworks/compile/libbcc" name="platform_frameworks_compile_libbcc" remote="skydragon" revision="n71" />
+  <project path="frameworks/compile/mclinker" name="platform_frameworks_compile_mclinker" remote="skydragon" revision="n71" />
+  <project path="frameworks/compile/slang" name="platform_frameworks_compile_slang" remote="skydragon" revision="n71" />
   <project path="frameworks/native" name="platform_frameworks_native" remote="skydragon" revision="n" />
   <project path="frameworks/support" name="platform_frameworks_support" remote="skydragon" revision="n71" />
   <project path="hardware/qcom/display" name="platform_hardware_qcom_display" remote="skydragon" revision="n71" />
@@ -340,9 +343,6 @@
   <project path="external/zlib" name="platform/external/zlib" groups="pdk" />
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs,pdk-fs" />
-  <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
-  <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
-  <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
   <project path="frameworks/ex" name="platform/frameworks/ex" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/minikin" name="platform/frameworks/minikin" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/ml" name="platform/frameworks/ml" groups="pdk-cw-fs,pdk-fs" />
