@@ -24,6 +24,7 @@
   <project path="external/busybox" name="platform_external_busybox" remote="skydragon" revision="n" />
   <project path="external/compiler-rt" name="platform_external_compiler-rt" remote="skydragon" revision="n71" />
   <project path="external/libjpeg-turbo" name="platform_external_libjpeg-turbo" remote="skydragon" revision="n71" />
+  <project path="external/libpng" name="platform_external_libpng" remote="skydragon" revision="n71" />
   <project path="external/skia" name="platform_external_skia" remote="skydragon" revision="n" />
   <project path="external/sqlite" name="platform_external_sqlite" remote="skydragon" revision="n" />
   <project path="frameworks/av" name="platform_frameworks_av" remote="skydragon" revision="n71" />
@@ -237,7 +238,6 @@
   <project path="external/libopus" name="platform/external/libopus" groups="pdk" />
   <project path="external/libpcap" name="platform/external/libpcap" groups="pdk,pdk-cw-fs,pdk-fs" />
   <project path="external/libphonenumber" name="platform/external/libphonenumber" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/libpng" name="platform/external/libpng" groups="pdk" />
   <project path="external/libselinux" name="platform/external/libselinux" groups="pdk" />
   <project path="external/libunwind" name="platform/external/libunwind" groups="pdk" />
   <project path="external/libunwind_llvm" name="platform/external/libunwind_llvm" />
