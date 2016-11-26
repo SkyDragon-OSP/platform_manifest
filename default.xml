@@ -12,22 +12,22 @@
            sync-j="4" />
  
  <!-- skydragon repos -->
-  <project path="build" name="platform_build" remote="skydragon" revision="n71" >
+  <project path="build" name="platform_build" remote="skydragon" revision="7.1" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="art" name="platform_art" remote="skydragon" revision="n71" />
+  <project path="art" name="platform_art" remote="skydragon" revision="7.1" />
   <project path="bionic" name="platform_bionic" remote="skydragon" revision="n" />
-  <project path="device/huawei/angler" name="device_huawei_angler" remote="skydragon" revision="n71" />
-  <project path="device/huawei/angler-kernel" name="device_huawei_angler-kernel" remote="skydragon" revision="n71" />
+  <project path="device/huawei/angler" name="device_huawei_angler" remote="skydragon" revision="7.1" />
+  <project path="device/huawei/angler-kernel" name="device_huawei_angler-kernel" remote="skydragon" revision="7.1" />
   <project path="device/moto/shamu" name="device_moto_shamu" remote="skydragon" revision="n71" />
-  <project path="device/moto/shamu-kernel" name="device_moto_shamu-kernel" remote="skydragon" revision="n" />
+  <project path="device/moto/shamu-kernel" name="device_moto_shamu-kernel" remote="skydragon" revision="7.1" />
   <project path="external/busybox" name="platform_external_busybox" remote="skydragon" revision="n" />
   <project path="external/libjpeg-turbo" name="platform_external_libjpeg-turbo" remote="skydragon" revision="n71" />
   <project path="external/libpng" name="platform_external_libpng" remote="skydragon" revision="n71" />
   <project path="external/skia" name="platform_external_skia" remote="skydragon" revision="n" />
   <project path="external/sqlite" name="platform_external_sqlite" remote="skydragon" revision="n" />
   <project path="frameworks/av" name="platform_frameworks_av" remote="skydragon" revision="n71" />
-  <project path="frameworks/base" name="platform_frameworks_base" remote="skydragon" revision="n71" />
+  <project path="frameworks/base" name="platform_frameworks_base" remote="skydragon" revision="7.1" />
   <project path="frameworks/native" name="platform_frameworks_native" remote="skydragon" revision="n" />
   <project path="frameworks/support" name="platform_frameworks_support" remote="skydragon" revision="n71" />
   <project path="hardware/qcom/display" name="platform_hardware_qcom_display" remote="skydragon" revision="n71" />
@@ -49,7 +49,7 @@
   <project path="system/sepolicy" name="platform_system_sepolicy" remote="skydragon" revision="n71" />
   <project path="vendor/huawei/angler" name="platform_vendor_huawei_angler" remote="skydragon" revision="n" />
   <project path="vendor/moto/shamu" name="platform_vendor_moto_shamu" remote="skydragon" revision="n" />
-  <project path="vendor/custom" name="platform_vendor_skydragon" remote="skydragon" revision="custom" />
+  <project path="vendor/custom" name="platform_vendor_skydragon" remote="skydragon" revision="7.1" />
   
 <!-- other repos -->
   <project path="packages/apps/masquerade" name="TeamSubstratum/masquerade" remote="gh" revision="master" />
