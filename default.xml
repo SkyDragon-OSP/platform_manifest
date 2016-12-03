@@ -44,9 +44,9 @@
   <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="skydragon" revision="n71" />
   <project path="packages/providers/DownloadProvider" name="platform_packages_providers_DownloadProvider" remote="skydragon" revision="n71" />
   <project path="prebuilts/build-tools" name="platform/prebuilts/build-tools" revision="master" />
-  <project path="prebuilts/clang/linux-x86/host/3.6" name="platform_prebuilts_clang_linux-x86_host-3.6" remote="skydragon" revision="7.1" />
+  <project path="prebuilts/clang/linux-x86/host/3.6" name="platform_prebuilts_clang_linux-x86_host-3.6" remote="skydragon" revision="n" />
   <project path="prebuilts/clang/linux-x86/host/sdclang-3.8" name="platform_prebuilts_clang_linux-x86_host_sdclang-3.8" remote="skydragon" revision="n" />
-  <project path="prebuilts/clang/host/linux-x86" name="platform_prebuilts_clang_host_linux-x86" remote="skydragon" revision="n" />
+  <project path="prebuilts/clang/host/linux-x86" name="platform_prebuilts_clang_host_linux-x86" remote="skydragon" revision="7.1" />
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="aarch64-linux-android-4.9" remote="skydragon" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="arm-linux-androideabi-4.9" remote="skydragon" revision="master" />
   <project path="prebuilts/ninja/linux-x86" name="platform_prebuilts_ninja_linux-x86" remote="skydragon" revision="n" />
