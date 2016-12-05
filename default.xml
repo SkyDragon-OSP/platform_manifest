@@ -2,7 +2,7 @@
 <manifest>
 
   <remote  name="aosp"
-           fetch="https://android.googlesource.com/" />
+           fetch="https://android-review.googlesource.com/" />
   <remote  name="skydragon"
            fetch="https://github.com/SKyDragon-OSP/" /> 
   <remote  name="gh"
@@ -55,9 +55,6 @@
   <project path="vendor/huawei/angler" name="platform_vendor_huawei_angler" remote="skydragon" revision="7.1" />
   <project path="vendor/moto/shamu" name="platform_vendor_moto_shamu" remote="skydragon" revision="7.1" />
   <project path="vendor/custom" name="platform_vendor_skydragon" remote="skydragon" revision="7.1" />
-  
-<!-- other repos -->
-  <project path="packages/apps/masquerade" name="TeamSubstratum/masquerade" remote="gh" revision="master" />
 
  <!-- aosp repos -->
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" />
