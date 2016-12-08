@@ -36,7 +36,7 @@
   <project path="hardware/qcom/audio" name="platform_hardware_qcom_audio" remote="skydragon" revision="7.1" />
   <project path="hardware/qcom/display" name="platform_hardware_qcom_display" remote="skydragon" revision="7.1" />
   <project path="hardware/qcom/keymaster" name="platform_hardware_qcom_keymaster" remote="skydragon" revision="7.1.1" />
-  <project path="libcore" name="platform_libcore" remote="skydragon" revision="n71" />
+  <project path="libcore" name="platform_libcore" remote="skydragon" revision="7.1.1" />
   <project path="packages/apps/Contacts" name="platform_packages_apps_Contacts" remote="skydragon" revision="7.1.1" />
   <project path="packages/apps/ContactsCommon" name="platform_packages_apps_ContactsCommon" remote="skydragon" revision="7.1.1" />
   <project path="packages/apps/Dialer" name="platform_packages_apps_Dialer" remote="skydragon" revision="7.1.1" />
