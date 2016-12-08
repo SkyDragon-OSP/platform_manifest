@@ -2,9 +2,9 @@
 <manifest>
 
   <remote  name="aosp"
-           fetch="https://android-review.googlesource.com/" />
+           fetch="https://android.googlesource.com/" />
   <remote  name="skydragon"
-           fetch="https://github.com/SKyDragon-OSP/" /> 
+           fetch="https://github.com/SkyDragon-OSP/" /> 
   <remote  name="gh"
            fetch="https://github.com/" />
   <default revision="refs/tags/android-7.1.1_r4"
@@ -12,37 +12,37 @@
            sync-j="4" />
  
  <!-- skydragon repos -->
-  <project path="build" name="platform_build" remote="skydragon" revision="7.1" >
+  <project path="build" name="platform_build" remote="skydragon" revision="7.1.1" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="art" name="platform_art" remote="skydragon" revision="7.1" />
-  <project path="bionic" name="platform_bionic" remote="skydragon" revision="7.1" />
-  <project path="device/huawei/angler" name="device_huawei_angler" remote="skydragon" revision="7.1" />
-  <project path="device/huawei/angler-kernel" name="device_huawei_angler-kernel" remote="skydragon" revision="7.1" />
+  <project path="art" name="platform_art" remote="skydragon" revision="7.1.1" />
+  <project path="bionic" name="platform_bionic" remote="skydragon" revision="7.1.1" />
+  <project path="device/huawei/angler" name="device_huawei_angler" remote="skydragon" revision="7.1.1" />
+  <project path="device/huawei/angler-kernel" name="device_huawei_angler-kernel" remote="skydragon" revision="7.1.1" />
   <project path="device/moto/shamu" name="device_moto_shamu" remote="skydragon" revision="7.1" />
   <project path="device/moto/shamu-kernel" name="device_moto_shamu-kernel" remote="skydragon" revision="7.1" />
   <project path="external/busybox" name="platform_external_busybox" remote="skydragon" revision="n" />
   <project path="external/e2fsprogs" name="platform_external_e2fsprogs" remote="skydragon" revision="7.1" />
   <project path="external/flac" name="platform_external_flac" remote="skydragon" revision="7.1" />
-  <project path="external/libjpeg-turbo" name="platform_external_libjpeg-turbo" remote="skydragon" revision="n71" />
-  <project path="external/libpng" name="platform_external_libpng" remote="skydragon" revision="n71" />
+  <project path="external/libjpeg-turbo" name="platform_external_libjpeg-turbo" remote="skydragon" revision="7.1.1" />
+  <project path="external/libpng" name="platform_external_libpng" remote="skydragon" revision="7.1.1" />
   <project path="external/pdfium" name="platform_external_pdfium" remote="skydragon" revision="7.1" />
   <project path="external/skia" name="platform_external_skia" remote="skydragon" revision="7.1" />
   <project path="external/sqlite" name="platform_external_sqlite" remote="skydragon" revision="n" />
-  <project path="frameworks/av" name="platform_frameworks_av" remote="skydragon" revision="n71" />
-  <project path="frameworks/base" name="platform_frameworks_base" remote="skydragon" revision="7.1" />
-  <project path="frameworks/native" name="platform_frameworks_native" remote="skydragon" revision="n" />
-  <project path="frameworks/support" name="platform_frameworks_support" remote="skydragon" revision="7.1" />
+  <project path="frameworks/av" name="platform_frameworks_av" remote="skydragon" revision="7.1.1" />
+  <project path="frameworks/base" name="platform_frameworks_base" remote="skydragon" revision="7.1.1" />
+  <project path="frameworks/native" name="platform_frameworks_native" remote="skydragon" revision="7.1.1" />
+  <project path="frameworks/support" name="platform_frameworks_support" remote="skydragon" revision="7.1.1" />
   <project path="hardware/qcom/audio" name="platform_hardware_qcom_audio" remote="skydragon" revision="7.1" />
   <project path="hardware/qcom/display" name="platform_hardware_qcom_display" remote="skydragon" revision="7.1" />
-  <project path="hardware/qcom/keymaster" name="platform_hardware_qcom_keymaster" remote="skydragon" revision="7.1" />
+  <project path="hardware/qcom/keymaster" name="platform_hardware_qcom_keymaster" remote="skydragon" revision="7.1.1" />
   <project path="libcore" name="platform_libcore" remote="skydragon" revision="n71" />
-  <project path="packages/apps/Contacts" name="platform_packages_apps_Contacts" remote="skydragon" revision="7.1" />
-  <project path="packages/apps/ContactsCommon" name="platform_packages_apps_ContactsCommon" remote="skydragon" revision="7.1" />
-  <project path="packages/apps/Dialer" name="platform_packages_apps_Dialer" remote="skydragon" revision="n" />
-  <project path="packages/apps/PackageInstaller" name="platform_packages_apps_PackageInstaller" remote="skydragon" revision="n" />
-  <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="skydragon" revision="n71" />
-  <project path="packages/providers/DownloadProvider" name="platform_packages_providers_DownloadProvider" remote="skydragon" revision="n71" />
+  <project path="packages/apps/Contacts" name="platform_packages_apps_Contacts" remote="skydragon" revision="7.1.1" />
+  <project path="packages/apps/ContactsCommon" name="platform_packages_apps_ContactsCommon" remote="skydragon" revision="7.1.1" />
+  <project path="packages/apps/Dialer" name="platform_packages_apps_Dialer" remote="skydragon" revision="7.1.1" />
+  <project path="packages/apps/PackageInstaller" name="platform_packages_apps_PackageInstaller" remote="skydragon" revision="7.1.1" />
+  <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="skydragon" revision="7.1.1" />
+  <project path="packages/providers/DownloadProvider" name="platform_packages_providers_DownloadProvider" remote="skydragon" revision="7.1.1" />
   <project path="prebuilts/build-tools" name="platform/prebuilts/build-tools" revision="master" />
   <project path="prebuilts/clang/linux-x86/host/3.6" name="platform_prebuilts_clang_linux-x86_host-3.6" remote="skydragon" revision="n" />
   <project path="prebuilts/clang/linux-x86/host/sdclang-3.8" name="platform_prebuilts_clang_linux-x86_host_sdclang-3.8" remote="skydragon" revision="7.1.1" />
@@ -50,11 +50,11 @@
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="aarch64-linux-android-4.9" remote="skydragon" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="arm-linux-androideabi-4.9" remote="skydragon" revision="master" />
   <project path="prebuilts/ninja/linux-x86" name="platform_prebuilts_ninja_linux-x86" remote="skydragon" revision="n" />
-  <project path="system/core" name="platform_system_core" remote="skydragon" revision="n71" />
-  <project path="system/sepolicy" name="platform_system_sepolicy" remote="skydragon" revision="n71" />
-  <project path="vendor/huawei/angler" name="platform_vendor_huawei_angler" remote="skydragon" revision="7.1" />
+  <project path="system/core" name="platform_system_core" remote="skydragon" revision="7.1.1" />
+  <project path="system/sepolicy" name="platform_system_sepolicy" remote="skydragon" revision="7.1.1" />
+  <project path="vendor/huawei/angler" name="platform_vendor_huawei_angler" remote="skydragon" revision="7.1.1" />
   <project path="vendor/moto/shamu" name="platform_vendor_moto_shamu" remote="skydragon" revision="7.1" />
-  <project path="vendor/custom" name="platform_vendor_skydragon" remote="skydragon" revision="7.1" />
+  <project path="vendor/custom" name="platform_vendor_skydragon" remote="skydragon" revision="7.1.1" />
 
  <!-- aosp repos -->
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" />
