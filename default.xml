@@ -12,7 +12,7 @@
            sync-j="4" />
  
  <!-- skydragon repos -->
-  <project path="build" name="platform_build" remote="skydragon" revision="7.1.1" >
+  <project path="build" name="platform_build" remote="skydragon" revision="nmr1.1" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="art" name="platform_art" remote="skydragon" revision="7.1.1" />
@@ -51,6 +51,7 @@
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="arm-linux-androideabi-4.9" remote="skydragon" revision="master" />
   <project path="prebuilts/ninja/linux-x86" name="platform_prebuilts_ninja_linux-x86" remote="skydragon" revision="n" />
   <project path="system/core" name="platform_system_core" remote="skydragon" revision="7.1.1" />
+  <project path="system/extras" name="platform_system_extras" remote="skydragon" revision="7.1.1" />
   <project path="system/sepolicy" name="platform_system_sepolicy" remote="skydragon" revision="7.1.1" />
   <project path="vendor/huawei/angler" name="platform_vendor_huawei_angler" remote="skydragon" revision="7.1.1" />
   <project path="vendor/moto/shamu" name="platform_vendor_moto_shamu" remote="skydragon" revision="7.1" />
@@ -521,7 +522,6 @@
   <project path="system/connectivity/apmanager" name="platform/system/connectivity/apmanager" />
   <project path="system/connectivity/dhcp_client" name="platform/system/connectivity/dhcp_client" />
   <project path="system/connectivity/shill" name="platform/system/connectivity/shill" />
-  <project path="system/extras" name="platform/system/extras" groups="pdk" />
   <project path="system/firewalld" name="platform/system/firewalld" />
   <project path="system/gatekeeper" name="platform/system/gatekeeper" groups="pdk" />
   <project path="system/keymaster" name="platform/system/keymaster" groups="pdk" />
