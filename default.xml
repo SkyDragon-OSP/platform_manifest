@@ -7,7 +7,7 @@
            fetch="https://github.com/SkyDragon-OSP/" /> 
   <remote  name="gh"
            fetch="https://github.com/" />
-  <default revision="refs/tags/android-7.1.1_r6"
+  <default revision="refs/tags/android-7.1.1_r12"
            remote="aosp"
            sync-j="4" />
  
@@ -19,7 +19,7 @@
   <project path="bionic" name="platform_bionic" remote="skydragon" revision="7.1.1" />
   <project path="device/huawei/angler" name="device_huawei_angler" remote="skydragon" revision="7.1.1" />
   <project path="device/huawei/angler-kernel" name="device_huawei_angler-kernel" remote="skydragon" revision="7.1.1" />
-  <project path="device/moto/shamu" name="device_moto_shamu" remote="skydragon" revision="7.1" />
+  <project path="device/moto/shamu" name="device_moto_shamu" remote="skydragon" revision="7.1.1" />
   <project path="device/moto/shamu-kernel" name="device_moto_shamu-kernel" remote="skydragon" revision="7.1" />
   <project path="external/busybox" name="platform_external_busybox" remote="skydragon" revision="n" />
   <project path="external/e2fsprogs" name="platform_external_e2fsprogs" remote="skydragon" revision="7.1" />
@@ -34,7 +34,7 @@
   <project path="frameworks/native" name="platform_frameworks_native" remote="skydragon" revision="7.1.1" />
   <project path="frameworks/support" name="platform_frameworks_support" remote="skydragon" revision="7.1.1" />
   <project path="hardware/qcom/audio" name="platform_hardware_qcom_audio" remote="skydragon" revision="7.1" />
-  <project path="hardware/qcom/display" name="platform_hardware_qcom_display" remote="skydragon" revision="7.1" />
+  <project path="hardware/qcom/display" name="platform_hardware_qcom_display" remote="skydragon" revision="7.1.1" />
   <project path="hardware/qcom/keymaster" name="platform_hardware_qcom_keymaster" remote="skydragon" revision="7.1.1" />
   <project path="libcore" name="platform_libcore" remote="skydragon" revision="7.1.1" />
   <project path="packages/apps/Contacts" name="platform_packages_apps_Contacts" remote="skydragon" revision="7.1.1" />
