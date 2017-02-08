@@ -7,7 +7,7 @@
            fetch="https://github.com/SkyDragon-OSP/" /> 
   <remote  name="gh"
            fetch="https://github.com/" />
-  <default revision="refs/tags/android-7.1.1_r13"
+  <default revision="refs/tags/android-7.1.1_r22"
            remote="aosp"
            sync-j="4" />
  
